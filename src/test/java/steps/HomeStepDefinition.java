@@ -38,4 +38,9 @@ public class HomeStepDefinition {
         //declineButton
         System.out.println("i should see forgot password page");
     }
+
+    @When("I test the Github it should work")
+    public void iTestTheGithubItShouldWork() {
+        System.out.println("GitHub working fine!!!");
+    }
 }
